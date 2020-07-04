@@ -5,3 +5,4 @@ mkdir /opt/nodejs
 tar -xvf node.tar --strip-components 1 -C /opt/nodejs
 ln -s /opt/nodejs/bin/npm   /usr/local/bin/
 ln -s /opt/nodejs/bin/node   /usr/local/bin/
+rm node.tar
